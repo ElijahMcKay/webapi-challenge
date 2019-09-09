@@ -26,13 +26,22 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+1. It's a great way for people new to building APIs
+2. it abstracts a lot of the more complex networking configuration
+
 - [ ] Describe Middleware?
+
+1.  Middleware is anything that interrupts and changes (but doesn't have to) a flow of data  
 
 - [ ] Describe a Resource?
 
 - [ ] What can the API return to help clients know if a request was successful?
 
+1. status codes to describe whether the action was successful or not 
+
 - [ ] How can we partition our application into sub-applications?
+
+1.  by using different routers for each function of the application 
 
 ## Project Setup
 
