@@ -12,3 +12,23 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
+const express = require('express'); 
+
+const router = express.Router(); 
+
+router.get('/', (req, res) => {
+    
+})
+
+router.post('/', (req, res) => {
+    
+})
+
+router.put('/', (req, res) => {
+    
+})
+
+router.delete('/', (req, res) => {
+    
+})
+
