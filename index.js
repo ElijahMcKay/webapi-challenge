@@ -12,23 +12,10 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
-const express = require('express'); 
+const server = require('./data/server'); 
 
-const router = express.Router(); 
+const port = 5000; 
 
-router.get('/', (req, res) => {
-    
-})
+server.listen(5000, () => console.log(`\n ** Port is listening on port ${port}`)); 
 
-router.post('/', (req, res) => {
-    
-})
-
-router.put('/', (req, res) => {
-    
-})
-
-router.delete('/', (req, res) => {
-    
-})
 
