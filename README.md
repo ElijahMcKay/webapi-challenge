@@ -12,7 +12,7 @@ You are not allowed to collaborate during the Sprint Challenge. However, you are
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
-## Commits
+## Commits 
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager).
 
@@ -26,13 +26,22 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+1. It's a great way for people new to building APIs
+2. it abstracts a lot of the more complex networking configuration
+
 - [ ] Describe Middleware?
+
+1.  Middleware is anything that interrupts and changes (but doesn't have to) a flow of data  
 
 - [ ] Describe a Resource?
 
 - [ ] What can the API return to help clients know if a request was successful?
 
+1. status codes to describe whether the action was successful or not 
+
 - [ ] How can we partition our application into sub-applications?
+
+1.  by using different routers for each function of the application 
 
 ## Project Setup
 
